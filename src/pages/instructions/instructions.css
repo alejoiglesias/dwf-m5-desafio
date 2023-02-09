@@ -1,0 +1,84 @@
+.instructions {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructions__container {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions__info {
+  font-family: "American Typewriter";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  color: black;
+  text-align: center;
+
+  width: 312px;
+  height: 240px;
+
+  margin: 0px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 960px) {
+  .instructions__info {
+    margin-bottom: 48px;
+  }
+}
+
+.instructions__link {
+  text-decoration: none;
+}
+
+.instructions__button {
+  width: 322px;
+  height: 87px;
+}
+
+@media (min-width: 960px) {
+  .instructions__button {
+    width: 404px;
+  }
+}
+
+.instructions__hands {
+  width: 375px;
+  height: 115px;
+
+  display: flex;
+  justify-content: center;
+  column-gap: 45px;
+
+  overflow: hidden;
+}
+
+@media (min-width: 960px) {
+  .instructions__hands {
+    width: 488px;
+    height: 170px;
+
+    column-gap: 65px;
+  }
+}
+
+.instructions__move {
+  width: 68px;
+  height: 131px;
+}
+
+@media (min-width: 960px) {
+  .instructions__move {
+    width: 97px;
+    height: 185px;
+  }
+}

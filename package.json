@@ -1,0 +1,18 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir build --public-url /dwf-m5-desafio",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
